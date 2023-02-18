@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/20Jan23NavBar.css">
+    <link rel="stylesheet" href="../css/17th FEB gallery.css">
+    <script src="../JAVAScript/17th FEB gallery.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+   <div id="bigscreen" class="fullscreenImg" style="display:none" onclick="imgV()">
+    <img id="fullImg" src="../assets/a.jpg">
+    <h1 id="imgheading">Heading</h1>
+    <p id="imgparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut blanditiis odit, nihil beatae nulla odio dignissimos ducimus! Nesciunt impedit odit iusto laudantium culpa.
+    </p>
+</div>
+<div id="20Jan23NavBar">
+    <ul id="mainlist">
+        <li class="li"><a href="#">Home</a></li>
+        <li class="li" id="sublistplace">Places 
+             <ul id="sublist">
+                <li class="sli">India</li>
+                <li class="sli">Dubai</li>
+                <li class="sli">Srilinka</li>
+                <li class="sli">Thailand</li>
+                <li class="sli">North Korea</li>
+             </ul>
+        </li>
+        <li class="li"><a href="./css/23jan about us.html">Info</a></li>
+        <li class="li"><a href="./login.html">Logout</a></li>
+    </ul>
+</div>
+<!--from here body of gallery starts-->
+<div class="bodyofGallery">
+    <img src="../assets/a.jpg" onclick="img (this.src,'Birds eating food by lues great ametrican ')">
+    <img src="../assets/b.jpg" onclick="img (this.src,'Chameleons  its changes the  colors in different time and donot have a particular color')">
+    <img src="../assets/c.jpg" onclick="img (this.src,'Tiger in forest and it is rest in coolplace')">
+    <img src="../assets/d.jpg" onclick="img (this.src,'Tortoise in water and it is swimming ')">
+    <img src="../assets/e.jpg" onclick="img (this.src,'Fox eating food by lues great ametrican')">
+    <img src="../assets/f.jpg" onclick="img (this.src,'Deers are fighting ')">
+    <img src="../assets/g.jpg" onclick="img (this.src,'Ants are moving towards in  queue line')">
+    <img src="../assets/h.jpg" onclick="img (this.src,'Doneky eating grass on the earth')">
+</div>
+</body>
+</html>
